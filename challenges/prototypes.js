@@ -32,7 +32,7 @@ this.lengthWidth = this.length * this.width;
 this.lengthHeight = this.length * this.height;
 this.widthHeight = this.width * this.height;
 this.lengthWidthheight = this. lengthWidth + this.lengthHeight + this.widthHeight
-console.log(2 * this.lengthWidthheight);
+return (2 * this.lengthWidthheight);
 };
  
 
@@ -43,9 +43,10 @@ console.log(2 * this.lengthWidthheight);
   Create a cuboid object that uses the new keyword to use our CuboidMaker constructor
   Add properties and values of length: 4, width: 5, and height: 5 to cuboid.   
 */
-  CuboidMaker = new CuboidMaker(4,5,5)
+let cuboid = new CuboidMaker(4,5,5);
+
 // Test your volume and surfaceArea methods by uncommenting the logs below:
- console.log(CuboidMaker.volume()); // 100
- console.log(CuboidMaker.surfaceArea()); // 130
+ console.log(cuboid.volume()); // 100
+ console.log(cuboid.surfaceArea()); // 130
 
 
