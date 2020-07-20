@@ -22,8 +22,8 @@ The zoos want to display both the scientific name and the animal name in front o
 */ 
 zooAnimals.forEach(function(array){
    let displayNames = []
-  displayNames.push(array.animal_name, array.scientific_name);
-  console.log(displayNames);
+    displayNames.push(array.animal_name, array.scientific_name);
+    console.log(displayNames);
   });
 /* Request 2: .map()
 
@@ -75,13 +75,13 @@ function consume(a, b, cb){
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
 function add(a,b){
-return a+b;
+  return a+b;
 }
 function multiply(a,b){
-return a*b;
+  return a*b;
 }
 function greeting(firstName, lastName){
-return `Hello ${firstName} ${lastName}, nice to meet you`
+  return `Hello ${firstName} ${lastName}, nice to meet you`
 }
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */

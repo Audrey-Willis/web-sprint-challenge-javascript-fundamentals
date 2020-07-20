@@ -8,14 +8,14 @@ class CuboidMaker {
 }
 
 volume() {
-return this.length * this.width * this.height;
+    return this.length * this.width * this.height;
 };
 
 surfaceArea(){
-this.lengthWidth = this.length * this.width;
-this.lengthHeight = this.length * this.height;
-this.widthHeight = this.width * this.height;
-this.lengthWidthheight = this. lengthWidth + this.lengthHeight + this.widthHeight
+    this.lengthWidth = this.length * this.width;
+    this.lengthHeight = this.length * this.height;
+    this.widthHeight = this.width * this.height;
+    this.lengthWidthheight = this. lengthWidth + this.lengthHeight + this.widthHeight
 return (2 * this.lengthWidthheight);
 };
 
